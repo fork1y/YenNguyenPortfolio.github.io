@@ -25,7 +25,7 @@ const projectDetails = {
       "./images/ngcp/UseCase.jpg",
      "./images/ngcp/ngcp3.jpeg",
      "./images/ngcp/ngcp4.jpg",
-    "./images/ngcp/ngcp5.jpg",
+    "./images/ngcp/ngcp5.JPG",
     "./images/ngcp/ngcp6.jpg",
     ],
   },
