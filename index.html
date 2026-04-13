@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio Website"
+    />
+    <title>Yen Nguyen Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true">
+      <span class="blob blob-one"></span>
+      <span class="blob blob-two"></span>
+      <span class="blob blob-three"></span>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <a class="brand" href="#home">Yen's Portfolio</a>
+        <div class="nav-links" id="nav-links">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#learning">Learning</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+            <span class="theme-toggle-text">Dark Mode</span>
+          </button>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Open navigation</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to my portfolio!</p>
+            <h1>Yen Nguyen</h1>
+            <p class="hero-title">
+              Computer Engineering Student | Systems Engineering | Aspiring Cybersecurity Professional
+            </p>
+            <p class="hero-text">
+              I'm a Computer Engineering student at Cal Poly Pomona with experience in systems-focused
+              projects, technical research, troubleshooting, documentation, and interdisciplinary
+              collaboration. I enjoy understanding how systems fit together and how thoughtful design
+              improves reliability, performance, and trust.
+            </p>
+            <p class="hero-text">
+              I'm especially interested in cybersecurity because it combines deep technical curiosity
+              with real-world impact. Learning how vulnerabilities emerge, how secure communication
+              works, and how systems can better protect users makes the field both challenging and
+              meaningful to me.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="#contact">Connect</a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-hidden="true">
+            <div class="avatar-card">
+              <div class="avatar-circle"></div>
+              <img
+                class="avatar-headshot"
+                src="./images/headshot/Headshot1.jpg"
+                alt="Headshot of Yen Nguyen"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Featured Projects</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>Northrop Grumman Collaboration Project</h3>
+              <p>
+               Designed a collaborative autonomous system integrating multiple unmanned vehicles to complete a coordinated search-and-rescue mission.
+              </p>
+              <div class="tags">
+                <span>Systems Engineering</span>
+                <span>Verification</span>
+                <span>Documentation</span>
+              </div>
+              <button class="project-button" type="button" data-collection="projects" data-key="northrop">View Details</button>
+            </article>
+
+            <article class="project-card">
+              <h3>Water Tank Automation and Pentesting </h3>
+              <p>
+                Built a small-scale industrial control system (ICS) water tank to simulate real-world automation and explore cybersecurity vulnerabilities through penetration testing.
+              </p>
+              <div class="tags">
+                <span>Cybersecurity</span>
+                <span>SCADA</span>
+                <span>Penetration Testing</span>
+                <span>Industrial Control System</span>
+              </div>
+              <button class="project-button" type="button" data-collection="projects" data-key="WaterTank">View Details</button>
+            </article>
+
+          
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Work Experience</p>
+            <h2>Experience</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <h3>PolySec Lab</h3>
+              <p>
+               Worked on VR research using physiological sensor data, exploring how system design and security issues affect data flow and user privacy.
+              </p>
+              <div class="tags">
+                <span>Security</span>
+                <span>VR Research</span>
+                <span>Data Systems</span>
+                 <span>Physiological Device Research</span>
+              </div>
+              <button class="project-button" type="button" data-collection="experience" data-key="PolySec">
+                View Details
+              </button>
+            </article>
+            
+            <article class="project-card">
+              <h3>FlowMetric</h3>
+              <p>
+                Worked on water risk research, helping analyze data and contribute to a white paper on climate impact and infrastructure.
+              </p>
+              <div class="tags">
+                <span>Research</span>
+                <span>Outreach</span>
+                <span>Documentation</span>
+             <span>Data Analysis</span>
+             <span>Water Risk</span>
+              </div>
+              <button class="project-button" type="button" data-collection="experience" data-key="FlowMetric">
+                View Details
+              </button>
+            </article>
+
+            <article class="project-card">
+              <h3>Kellogg West Conference Center and Hotel</h3>
+              <p>
+                Worked in fast-paced event environments where preparation, communication, and quick
+                issue resolution were essential for smooth technical delivery.
+              </p>
+              <div class="tags">
+                <span>Customer Support</span>
+                <span>AV Support</span>
+                <span>Troubleshooting</span>
+                <span>Facilities Maintenance</span>
+              </div>
+              <button class="project-button" type="button" data-collection="experience" data-key="kelloggWork">
+                View Details
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Skills</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="content-card">
+              <h3>Operating Systems</h3>
+              <div class="tags tags-soft">
+                <span>Windows 7/10/11</span>
+                <span>Linux Ubuntu</span>
+                <span>Kali Linux</span>
+              </div>
+            </article>
+            <article class="content-card">
+              <h3>Networking & Cybersecurity</h3>
+              <div class="tags tags-soft">
+                <span>TCP/IP</span>
+                <span>Network Troubleshooting</span>
+                  <span>Vulnerability Analysis</span>
+                 <span>Encryption</span>
+            <span>Pen Testing</span>
+              </div>
+            </article>
+            <article class="content-card">
+              <h3>Hardware and AV Systems</h3>
+              <div class="tags tags-soft">
+                <span>Hardware Support</span>
+                <span>Lighting Setups</span>
+                <span>Sound Systems</span>
+                <span>Technical Operations</span>
+              </div>
+            </article>
+            <article class="content-card">
+              <h3>Tools</h3>
+              <div class="tags tags-soft">
+                <span>Microsoft Office 365</span>
+                <span>MATLAB</span>
+                <span>Visual Studio</span>
+               <span>Altium</span>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="learning">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Certifications / Learning</p>
+            <h2>Technical Growth</h2>
+          </div>
+          <div class="learning-grid">
+            <article class="project-card project-card--compact">
+              <p class="status-pill">In Progress May 2026</p>
+              <h3>CodePath CYB101</h3>
+              <p>Learning core cybersecurity concepts through practical labs, focusing on threat detection, incident response, and blue team strategies using real-world tools and techniques.</p>
+              <button class="project-button" type="button" data-collection="certifications" data-key="codepath">
+                View Details
+              </button>
+            </article>
+             <article class="project-card project-card--compact">
+                <p class="status-pill">In Progress May 2026</p>
+                <h3>CompTIA Net+</h3>
+                <p>Developing knowledge in networking fundamentals such as TCP/IP, routing, switching, and network security, with emphasis on troubleshooting, performance, and secure system design.</p>
+                <button class="project-button" type="button" data-collection="certifications" data-key="networkPlus">
+                  View Details
+                </button>
+              </article>
+            </div>
+          </div>
+        </section>
+
+      <section class="section" id="education">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Education</p>
+            <h2>Academic Background</h2>
+          </div>
+          <article class="content-card education-card">
+            <h3>California State Polytechnic University, Pomona</h3>    
+            <h4>Graduating December 2026</h4>
+            <p>Bachelor of Science in Computer Engineering</p>
+            <p>Minor in Finance</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Connect with me!</h2>
+          </div>
+          <div class="contact-grid">
+            <a class="contact-card" href="https://www.linkedin.com/in/yen-nguyen-023325245/" target="_blank" rel="noreferrer">
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/yen</span>
+            </a>
+            <a class="contact-card" href="https://github.com/fork1y" target="_blank" rel="noreferrer">
+              <strong>GitHub</strong>
+              <span>github.com/yen</span>
+            </a>
+            <a class="contact-card" href="mailto:yenguyen190@gmail.com">
+              <strong>Email</strong>
+              <span>yenguyen190@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-resume" id="resume">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Resume</p>
+            <h2>Quick resume preview</h2>
+            <p>Click the preview to open the full resume PDF in a new tab.</p>
+          </div>
+            <div class="resume-wrap">
+              <a class="resume-card" href="./pdf/resume.pdf" target="_blank" rel="noreferrer">
+                <object
+                  class="resume-preview"
+                  data="./pdf/Resume.pdf#view=FitH"
+                  type="application/pdf"
+                  aria-label="Preview of resume"
+                >
+                  <div class="resume-preview resume-preview--fallback"></div>
+                </object>
+                <div class="resume-copy">
+                  <strong>View Full Resume</strong>
+                </div>
+              </a>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Thank You For Visiting!</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <div class="modal hidden" id="project-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal="true"></div>
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" data-close-modal="true" aria-label="Close project details">
+          x
+        </button>
+        <p class="eyebrow">Experience</p>
+        <h2 id="modal-title"></h2>
+        <div id="modal-content"></div>
+      </div>
+    </div>
+
+    <div class="image-lightbox hidden" id="image-lightbox" aria-hidden="true">
+      <div class="image-lightbox__backdrop" data-close-lightbox="true"></div>
+      <div class="image-lightbox__panel" role="dialog" aria-modal="true" aria-label="Expanded project image">
+        <button class="image-lightbox__close" type="button" data-close-lightbox="true" aria-label="Close image viewer">
+          x
+        </button>
+        <button class="image-lightbox__nav image-lightbox__nav--prev" type="button" id="lightbox-prev" aria-label="Previous image">
+          &#8249;
+        </button>
+        <img id="lightbox-image" class="image-lightbox__image" src="" alt="" />
+        <button class="image-lightbox__nav image-lightbox__nav--next" type="button" id="lightbox-next" aria-label="Next image">
+          &#8250;
+        </button>
+      </div>
+    </div>
+  
+    <script src="./script.js"></script>
+  </body>
+</html>
