@@ -132,6 +132,10 @@ const certificationDetails = {
     title: "CompTIA Network+",
     certificate: "./images/certificate/CompTIANet+.png",
   },
+   securityPlus: {
+    title: "CompTIA Security+",
+    certificate: "./images/certificate/CompTIASec+.png",
+  },
 };
 
 const menuToggle = document.querySelector(".menu-toggle");
